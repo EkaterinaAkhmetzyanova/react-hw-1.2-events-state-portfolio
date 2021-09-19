@@ -1,0 +1,36 @@
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: flex-start;
+  width: 650px;
+  height: 950px;
+}
+
+.project-list img {
+  width: 150px;
+  margin: 5px;
+}
+
+.toolbar {
+  display: flex;
+  margin: 8px;
+}
+
+.toolbar-btn {
+  margin-right: 8px;
+  padding: 8px;
+  border: solid 1px #000;
+  cursor: pointer;
+}
+
+.selected {
+  background-color: #000;
+  color: #fff;
+  margin-right: 8px;
+  padding: 8px;
+}
+
+.portfolio {
+  width: 650px;
+}
